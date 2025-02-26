@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/Hero/wolf.png";
 
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
@@ -7,6 +7,12 @@ import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
+
+import php from "./assets/images/Skills/php.png";
+import laravel from "./assets/images/Skills/laravel.png";
+import javascript from "./assets/images/Skills/javascript.png";
+import git from "./assets/images/Skills/git.png";
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -79,19 +85,19 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
+        name: "PHP",
         para: "Lorem ipsum text  dummy",
-        logo: figma,
+        logo: php,
       },
       {
-        name: "Node js",
+        name: "Laravel",
         para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        logo: laravel,
       },
       {
-        name: "Adobe Photoshop",
+        name: "Git",
         para: "Lorem ipsum text  dummy",
-        logo: ps,
+        logo: git,
       },
       {
         name: "React js",
@@ -99,9 +105,9 @@ export const content = {
         logo: reactjs,
       },
       {
-        name: "Sketch",
+        name: "JavaScript",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: javascript,
       },
       {
         name: "Python",
@@ -138,15 +144,15 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Public Blogging Site",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "Password Manager",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "Frontpage Generator",
         image: project3,
       },
     ],

@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="overflow-hidden">
-      <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
+      <div className="min-h-screen relative flex md:flex-row flex-col-reverse justify-center items-center">
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
@@ -44,12 +44,12 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:h-[37rem] h-96">
+        <div className="md:h-[37rem] h-96 md:items-end " >
           <img
             src={hero.image}
             data-aos="slide-up"
             alt="..."
-            className="h-full object-cover"
+            className="h-full object-cover rounded-3xl"
           />
         </div>
       </div>
