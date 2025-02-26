@@ -21,6 +21,7 @@ const Hero = () => {
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
           <h2>{hero.title}</h2>
+          <h5 style={{color:"navy"}}>{hero.title}</h5>
           <br />
           <div className="flex justify-end">
             <a href="https://www.linkedin.com/in/sagar-deep-saha/">

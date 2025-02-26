@@ -64,7 +64,8 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
+    title: "Sagar Deep Saha",
+    titlex: "Sagar Deep Saha",
     firstName: "SAGAR D",
     LastName: "SAHA",
     btnText: "Let's Connect",
